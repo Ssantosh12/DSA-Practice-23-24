@@ -16,5 +16,7 @@ int main() {
 
         totalCost = totalCost + diff * costa;
         cout << totalCost << "\n";
+        
+        // NOTE : only taking totalCost var to be long long int won't work, we will have to take all vars to be long long int
     }
 }
