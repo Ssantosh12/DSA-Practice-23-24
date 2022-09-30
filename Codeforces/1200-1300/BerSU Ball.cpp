@@ -25,4 +25,5 @@ int main(){
         }
     }
     printf("%d\n",cnt);
+    //adding comment for learning purposes
 }
