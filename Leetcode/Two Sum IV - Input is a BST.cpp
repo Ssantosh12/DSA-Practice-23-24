@@ -33,6 +33,7 @@ public:
         if (ptr == NULL) return false;
         if ((ptr->val != (target - ptr->val)) && freq[target - (ptr->val)])
             return true;
+        //adding comment for learning purposes of github
         //if either of the left subtree or right subtree returns true then answer would be true
         if (Traverse(ptr->left, freq, target) || Traverse(ptr->right, freq, target))
             return true;
