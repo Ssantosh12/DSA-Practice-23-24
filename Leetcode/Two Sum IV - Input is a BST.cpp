@@ -19,6 +19,7 @@ public:
 
         return Traverse(root, freq, k);
     }
+    //new comment added for learning 
     void freqCal(TreeNode* ptr, map<int, int>& freq) {
         if (ptr == NULL) return;
         freq[ptr->val]++;
