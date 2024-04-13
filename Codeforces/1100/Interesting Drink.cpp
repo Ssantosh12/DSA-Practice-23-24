@@ -23,7 +23,7 @@ int main(){
                 mid=low+(high-low)/2+1;
             else mid=low+(high-low)/2;
           
-            //now we check the binary search conditions for finding the largest element less than equal to money in the array
+            // now we check the binary search conditions for finding the largest element less than equal to money in the array
             if(a[mid]>money)
                  high=mid-1;
             else
